@@ -1,0 +1,10 @@
+is superior to javascript
+optional static typing and type inference
+enhanced ide support
+
+this(ts) file is treated as a script rather than a module
+module has its own scope whereas script share the global scope
+if we add an import or export statement to the top of this(ts) file, ts treats this file as a module
+
+we want to automatically recompile the ts file whenever there is a change
+we can use the "watch" command for this

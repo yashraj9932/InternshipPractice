@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Form</title>
+    <link rel="stylesheet " href="index.css" />
+  </head>
+  <body>
+    <div id="outer">
+      <div id="inner">
+        <p id="msg" style="color: red"></p>
+        <form>
+          <input
+            id="name"
+            type="text"
+            placeholder="Name..."
+            autocomplete="on"
+          />
+          <br />
+          <input
+            id="email"
+            type="email"
+            placeholder="Email..."
+            autocomplete="on"
+          />
+          <br />
+          <input
+            id="password"
+            type="password"
+            placeholder="Password..."
+            autocomplete="on"
+          />
+          <br />
+
+          <select id="gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">Other</option>
+            <option value="pfns">Prefer Not To Say</option>
+          </select>
+          <br />
+
+          <input
+            type="radio"
+            id="user"
+            name="role"
+            value="user"
+            checked="checked"
+          />
+          <label for="user">User</label>
+
+          <input type="radio" id="admin" name="role" value="admin" />
+          <label for="admin">Admin</label>
+          <br />
+
+          <input
+            type="checkbox"
+            id="permission1"
+            name="permission1"
+            value="permission1"
+            value="p1"
+          />
+          <label for="permission1"> Permission 1</label><br />
+          <input
+            type="checkbox"
+            id="permission2"
+            name="permission2"
+            value="permission2"
+            value="p2"
+          />
+          <label for="permission2"> Permission 2</label><br />
+          <input
+            type="checkbox"
+            id="permission3"
+            name="permission3"
+            value="permission3"
+            value="p3"
+          />
+          <label for="permission3"> Permission 3</label><br />
+          <input
+            type="checkbox"
+            id="permission4"
+            name="permission4"
+            value="permission4"
+            value="p4"
+          />
+          <label for="permission4"> Permission 4</label><br />
+
+          <input type="submit" id="submit" value="Submit" />
+        </form>
+      </div>
+      <br />
+      <div id="final"></div>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>

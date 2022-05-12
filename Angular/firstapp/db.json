@@ -1,0 +1,28 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "text": "Work it",
+      "reminder": true,
+      "day": "May 23"
+    },
+    {
+      "id": 2,
+      "text": "Karle Bhai",
+      "reminder": false,
+      "day": "May 22"
+    },
+    {
+      "id": 3,
+      "text": "Mat Kar",
+      "reminder": false,
+      "day": "May 21"
+    },
+    {
+      "text": "Complete Angular",
+      "day": "Today",
+      "reminder": true,
+      "id": 4
+    }
+  ]
+}

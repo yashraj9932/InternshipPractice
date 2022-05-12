@@ -1,0 +1,58 @@
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
+body {
+  background-color: black;
+}
+
+input[type="submit"],
+select {
+  padding: 10px;
+  width: 38vh;
+}
+
+button {
+  padding: 10px;
+  width: 25vh;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+  padding: 10px 20px;
+  border: none;
+  border-bottom: 1px solid black;
+  width: 33vh;
+}
+
+input[type="password"] {
+  margin-bottom: 25px;
+}
+
+p {
+  text-align: center;
+  padding: 10px 20px;
+  /* display: none; */
+}
+input,
+select {
+  margin-bottom: 15px;
+}
+
+#outer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 98vh;
+}
+
+form {
+  /* border: 1px solid black; */
+  padding: 10vh;
+  background-color: white;
+  box-shadow: 10px 20px 30px white;
+}

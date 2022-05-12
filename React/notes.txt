@@ -1,0 +1,7 @@
+container components :contains state,lifecycle hooks,not concerend with ui,use classes to create
+
+
+ui components:dont contain state,receive data from props,only concerend with ui,use functions to create
+
+
+css is always imported globally even if we import in one of the child components

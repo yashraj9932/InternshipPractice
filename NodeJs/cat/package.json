@@ -1,0 +1,15 @@
+{
+  "name": "cat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cat.js",
+  "scripts": {
+    "start": "nodemon cat"
+  },
+  "author": "Yash Raj Goel",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15"
+  }
+}

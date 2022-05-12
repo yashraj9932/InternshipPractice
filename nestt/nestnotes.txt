@@ -1,0 +1,18 @@
+//For new project
+nest new project-name
+
+//Generate module 
+nest generate module users
+
+nest g controller users
+
+nest g service users
+
+//For documentation purposes its magic
+npm i @nestjs/swagger swagger-ui-express 
+
+//For automatically creating the entry points and we just need to provide the implementation
+
+nest g resource todos
+
+Pipes guards and interceptor are like middleware with specific jobs
